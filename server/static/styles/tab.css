@@ -1,0 +1,56 @@
+.tabback{
+    background-image: url(../assets/weather.jpg);
+    height: 350px;
+    width: 500px;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.tab{
+    height: 350px;
+    width: 500px;
+    background-color: rgba(55, 127, 171, 0.429);
+    border-radius: 20px;
+    padding: 55px;
+    box-sizing: border-box;
+}
+.place{
+    font-size: 27px;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 100;
+}
+.infobox{
+    position: relative;
+}
+.infobox>div>div>p{
+    color: rgb(0 0 0);
+}
+.info{
+    height: 10px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+.placeinfo{
+    background-color: rgba(255, 255, 255, 0.368);
+    font-size: 15px;
+    border-radius: 9px;
+    padding: 8px;
+    position: absolute;
+    left: 15px;
+    top: -50px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    width: fit-content;
+}
+.placeinfo>div>p{
+    word-wrap: none;
+    white-space: nowrap;
+}
+.info:hover + .placeinfo{
+    opacity: 1;
+} 
+.bottom>div{
+    margin: 10px;
+}

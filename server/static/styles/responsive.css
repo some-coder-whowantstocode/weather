@@ -1,0 +1,20 @@
+@media (max-width:750px) {
+    nav{
+        width: 100vw!important;
+    }
+    .tabback{
+        width: 90vw!important;
+        height: 200px;
+    }
+    .tab{
+        width: 90vw!important;
+        height: 200px;
+    }
+    #place_input{
+        width: 90vw;
+        margin-right: 0px;
+    }
+    middle>div{
+        width: 100vw;
+    }
+}

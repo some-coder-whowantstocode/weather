@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.scroll-invisible::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-invisible {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+
+.scroll-invisible {
+    overflow: auto;
+}
+.visible{
+    opacity: 1;   
+}
+.invisible{
+    opacity: 0;
+
+}
+.dissapear{
+    display: none !important;
+}
